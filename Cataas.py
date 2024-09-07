@@ -23,7 +23,7 @@ label1 = Label()
 label1.pack()
 
 url = "https://cataas.com/cat"
-img = img_load(url)
+img = load_image(url)
 
 if img:
     label.config(image=img)
